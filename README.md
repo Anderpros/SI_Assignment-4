@@ -288,7 +288,7 @@ If user is not the owner:
 
 ---
 
-# 🛡 Ownership Rules Summary
+# Ownership Rules Summary
 
 | User        | Add | Edit                       | Delete                     |
 | ----------- | --- | -------------------------- | -------------------------- |
