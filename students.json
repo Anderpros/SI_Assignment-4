@@ -1,0 +1,22 @@
+{
+    "students": {
+        "1": {
+            "name": "Leonard Bartolomeus",
+            "major": "Information Systems",
+            "gpa": 3.8,
+            "owner": "admin"
+        },
+        "2": {
+            "name": "Dillon",
+            "major": "Management",
+            "gpa": 3.9,
+            "owner": "admin"
+        },
+        "3": {
+            "name": "Leonard Student",
+            "major": "IS",
+            "gpa": 3.7,
+            "owner": "leonard"
+        }
+    }
+}

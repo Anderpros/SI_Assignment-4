@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "username": "admin",
+            "password": "$2b$12$L8eGv3mwl0eEAhCkMZy3nO.ZeYQyCKHSPglpPumLKlQU1G69LkmFa"
+        },
+        {
+            "username": "leonard",
+            "password": "scrypt:32768:8:1$zIAo5INQYqL4Nzus$cf5ca143f2a8e1f263c758031016a718de29d1b1712380212df42d4a3db111654df7efbf63b62b780eb33476b9b20ea90622384ef1ee429d71a099f310a4a283"
+        },
+        {
+            "username": "Justin",
+            "password": "scrypt:32768:8:1$wkdtLrO5xCZYlRJU$e10d337e70ccdb5978b31be18bfa1d9ffb071033783928ea947d8c227ff7afb56aead30f99d6212c06225e28cc032c7ba620e2d774b3f9fe96b2d7ee4015350e"
+        }
+    ]
+}
