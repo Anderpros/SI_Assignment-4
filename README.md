@@ -299,17 +299,6 @@ Both files **stay saved even after restarting** the server.
 
 ---
 
-# Technology Stack
-
-* **Flask** (Python)
-* **Flask-JWT-Extended**
-* **Werkzeug Security**
-* **JSON-based persistent storage**
-* **JWT Authorization**
-* **cURL testing**
-
----
-
 # Limitations
 
 * Not a production database (JSON files only).
