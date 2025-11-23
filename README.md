@@ -227,7 +227,7 @@ http://127.0.0.1:5000/students
 ```
 
 Returns all records.
-
+##
 Get a Specific Student
 ```bash
 curl -H "Authorization: Bearer YOUR_TOKEN_HERE" \
