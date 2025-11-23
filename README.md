@@ -286,8 +286,8 @@ Stores all students with ownership:
 {
   "students": {
     "3": {
-      "name": "Leonard Student",
-      "major": "IS",
+      "name": "Leonard",
+      "major": "Information Systems",
       "gpa": 3.8,
       "owner": "leonard"
     }
