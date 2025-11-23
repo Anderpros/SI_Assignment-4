@@ -315,4 +315,3 @@ Both files **stay saved even after restarting** the server.
 * Not a production database (JSON files only).
 * JWT tokens do not expire.
 * No password reset feature.
-* No rate limiting.
