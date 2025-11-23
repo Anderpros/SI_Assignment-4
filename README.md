@@ -218,14 +218,21 @@ Response:
 
 ---
 
-# 5️. Get All Students (Protected)
+# 5️. Get Students
 
+Get All Students
 ```bash
 curl -H "Authorization: Bearer YOUR_TOKEN_HERE" \
 http://127.0.0.1:5000/students
 ```
 
 Returns all records.
+
+Get a Specific Student
+```bash
+curl -H "Authorization: Bearer YOUR_TOKEN_HERE" \
+http://127.0.0.1:5000/students/3
+```
 
 ---
 
