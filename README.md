@@ -234,6 +234,8 @@ curl -H "Authorization: Bearer YOUR_TOKEN_HERE" \
 http://127.0.0.1:5000/students/3
 ```
 
+Return the record of the student with ID = 3.
+
 ---
 
 # 6️. Update a Student (Protected, Ownership Required)
