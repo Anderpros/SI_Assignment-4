@@ -61,8 +61,8 @@ project/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/Anderpros/SI_Assignment-4.git
+cd SI_Assignment-4
 ```
 
 ### 2. Install dependencies
@@ -315,6 +315,6 @@ Both files **stay saved even after restarting** the server.
 # Limitations
 
 * Not a production database (JSON files only).
-* JWT tokens do not expire (simplified for assignment).
+* JWT tokens do not expire.
 * No password reset feature.
 * No rate limiting.
