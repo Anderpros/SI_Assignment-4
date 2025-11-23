@@ -152,8 +152,6 @@ To access any protected endpoint:
 -H "Authorization: Bearer YOUR_TOKEN_HERE"
 ```
 
-Remove `< >`.
-
 ---
 
 # 4️. Add a Student (Protected)
