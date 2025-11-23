@@ -2,7 +2,7 @@
     "users": [
         {
             "username": "admin",
-            "password": "$2b$12$L8eGv3mwl0eEAhCkMZy3nO.ZeYQyCKHSPglpPumLKlQU1G69LkmFa"
+            "password": "scrypt:32768:8:1$NIAKoxlUu4d2g6Fp$43bd03ca07e5db8b26739b7abadafd2dfdbce4976b3b1b671f2177c40bda6f61b57db25ced1b1b456b19d93149c36101e81d335cdadc353ec43b1527f03b0dc7"
         },
         {
             "username": "leonard",
