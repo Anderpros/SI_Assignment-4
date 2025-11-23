@@ -46,23 +46,29 @@ Ownership rules:
 
 # API Endpoints (Method /Endpoint → Description)
 
+## Authentication
 - **POST** `/register`  
-  → Register a new user with username and password (public).
+  → Register a new user (username + password). Saved with hashed password.
 
 - **POST** `/login`  
-  → Log in with username and password and receive a JWT access token (public).
+  → Login and receive a JWT token.
+
+## Student Record Endpoints (JWT Required)
 
 - **GET** `/students`  
-  → Retrieve all student records (JWT required).
+  → Retrieve all student records.
+
+- **GET** `/students/<id>`  
+  → Retrieve a specific student record by ID.
 
 - **POST** `/students`  
-  → Add a new student record (JWT required, the logged-in user becomes the `owner` of the record).
+  → Add a new student record (logged-in user becomes `owner`).
 
 - **PUT** `/students/<id>`  
-  → Update an existing student record by ID (JWT required, only the record owner or `admin` can update).
+  → Update a student record (only the owner OR admin can update).
 
 - **DELETE** `/students/<id>`  
-  → Delete a student record by ID (JWT required, only the record owner or `admin` can delete).
+  → Delete a student record (only the owner OR admin can delete).
 
 ---
 
