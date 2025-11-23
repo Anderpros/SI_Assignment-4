@@ -65,6 +65,18 @@ def get_students():
     return jsonify(students_data["students"]), 200
 
 
+@app.route("/students/<id>", methods=["GET"])
+@jwt_required()
+def get_student(id):
+    students_data = load_data("students.json")
+    students = students_data.get("students", {})
+
+    if id not in students:
+        return jsonify({"error": "Student not found"}), 404
+
+    return jsonify(students[id]), 200
+
+
 @app.route("/students", methods=["POST"])
 @jwt_required()
 def add_student():
